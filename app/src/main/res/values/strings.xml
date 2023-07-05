@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DoNothing</string>
+    <string name="textview">TextView</string>
+    <string name="please_enter_message">Please Enter Message</string>
+    <string name="save_my_name">Save My Name</string>
+    <string name="goto_next_page">GoTo Next Page</string>
 </resources>
