@@ -4,4 +4,7 @@
     <string name="please_enter_message">Please Enter Message</string>
     <string name="save_my_name">Save My Name</string>
     <string name="goto_next_page">GoTo Next Page</string>
+    <string name="enter_your_age">Enter Your age</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="button">Button</string>
 </resources>
