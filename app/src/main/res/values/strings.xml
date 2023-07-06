@@ -7,4 +7,10 @@
     <string name="enter_your_age">Enter Your age</string>
     <string name="enter_your_name">Enter Your Name</string>
     <string name="button">Button</string>
+    <string name="calculate_bmi">Calculate Bmi</string>
+    <string name="calculate_your_bmi">Calculate Your BMI</string>
+    <string name="weight">Weight</string>
+    <string name="_0">0</string>
+    <string name="kg">KG</string>
+    <string name="inches">inches</string>
 </resources>

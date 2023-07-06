@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         val textInput = findViewById<EditText>(R.id.mainInput)
         val btn = findViewById<Button>(R.id.mainButton)
         val nextBtn = findViewById<Button>(R.id.nextBtn)
+        val bmiButton = findViewById<Button>(R.id.calculateBmiBtn)
+
         var updatedName = ""
         btn.setOnClickListener {
             updatedName = textInput.text.toString()
@@ -38,6 +40,13 @@ class MainActivity : AppCompatActivity() {
 
             nextIntent.putExtra("USER",updatedName)
             startActivity(nextIntent)
+        }
+        bmiButton.setOnClickListener{
+            val bmiIntent = Intent(this, BmiActivity::class.java)
+//            val updatedName = textInput.text.toString()
+
+//            nextIntent.putExtra("USER",updatedName)
+            startActivity(bmiIntent)
         }
     }
 }
