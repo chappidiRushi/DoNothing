@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         val btn = findViewById<Button>(R.id.mainButton)
         val nextBtn = findViewById<Button>(R.id.nextBtn)
         val bmiButton = findViewById<Button>(R.id.calculateBmiBtn)
-
         var updatedName = ""
         btn.setOnClickListener {
             updatedName = textInput.text.toString()
